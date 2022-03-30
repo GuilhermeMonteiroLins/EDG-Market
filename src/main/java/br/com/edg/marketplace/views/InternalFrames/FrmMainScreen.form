@@ -105,6 +105,7 @@
               <Group type="102" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                   <Component id="btnRegistroProducts" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="btnRelatorio" min="-2" pref="137" max="-2" attributes="0"/>
@@ -120,6 +121,8 @@
                   <Component id="btnOthers" min="-2" max="-2" attributes="0"/>
                   <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -130,7 +133,11 @@
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jButton6" min="-2" pref="129" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+<<<<<<< HEAD
                           <Component id="btnRegisterClient" min="-2" max="-2" attributes="0"/>
+=======
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="btnEstoque" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -142,7 +149,10 @@
                           <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
                       </Group>
                   </Group>
+<<<<<<< HEAD
 >>>>>>> 906898da65494518e45b3155de142ad9a9894d77
+=======
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
               </Group>
           </Group>
         </DimensionLayout>
@@ -154,21 +164,27 @@
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="btnCadCliente" max="32767" attributes="0"/>
 =======
                               <Component id="btnRegisterClient" max="32767" attributes="0"/>
 >>>>>>> 906898da65494518e45b3155de142ad9a9894d77
+=======
+                              <Component id="jButton2" max="32767" attributes="0"/>
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
                               <Component id="btnRegistroProducts" max="32767" attributes="0"/>
                               <Component id="btnEstoque" alignment="0" max="32767" attributes="0"/>
-                              <Component id="btnRelatorio" alignment="1" max="32767" attributes="0"/>
+                              <Component id="jButton6" alignment="1" max="32767" attributes="0"/>
                           </Group>
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
-                      <Component id="btnOthers" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jButton5" alignment="0" max="32767" attributes="0"/>
                       <Component id="btnCaixa" alignment="1" max="32767" attributes="0"/>
-                      <Component id="btnConfig" alignment="1" max="32767" attributes="0"/>
+                      <Component id="jButton7" alignment="1" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -185,10 +201,14 @@
           </Events>
         </Component>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Component class="javax.swing.JButton" name="btnCadCliente">
 =======
         <Component class="javax.swing.JButton" name="btnRegisterClient">
 >>>>>>> 906898da65494518e45b3155de142ad9a9894d77
+=======
+        <Component class="javax.swing.JButton" name="jButton2">
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
           <Properties>
             <Property name="text" type="java.lang.String" value="Cadastrar Cliente"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -199,10 +219,14 @@
           </Properties>
           <Events>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadClienteActionPerformed"/>
 =======
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegisterClientActionPerformed"/>
 >>>>>>> 906898da65494518e45b3155de142ad9a9894d77
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+>>>>>>> parent of daa7490 (edit internalFrmCadCliente)
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnEstoque">
@@ -215,7 +239,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnEstoqueActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnOthers">
+        <Component class="javax.swing.JButton" name="jButton5">
           <Properties>
             <Property name="text" type="java.lang.String" value="Outros"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -225,10 +249,10 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnOthersActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnRelatorio">
+        <Component class="javax.swing.JButton" name="jButton6">
           <Properties>
             <Property name="text" type="java.lang.String" value="Relatorio de vendas"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -238,7 +262,7 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnConfig">
+        <Component class="javax.swing.JButton" name="jButton7">
           <Properties>
             <Property name="text" type="java.lang.String" value="Config"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -248,8 +272,13 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnConfigActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
           </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+          </Properties>
         </Component>
         <Component class="javax.swing.JButton" name="btnCaixa">
           <Properties>
