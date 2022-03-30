@@ -11,12 +11,12 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author Elvis - PC
  */
-public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
+public class InternalFrmRegisterClient extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form InternalFrmCadCliente
      */
-    public InternalFrmCadCliente() {
+    public InternalFrmRegisterClient() {
         initComponents();
     }
 
@@ -154,6 +154,7 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lblCPFCli)
                         .addGap(18, 18, 18)
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
                         .addComponent(txtCpfCli))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(lblDataNascCli)
@@ -183,10 +184,19 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
                         .addComponent(txtNomeCli, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
+=======
+                        .addComponent(jButton1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton3)))
+                .addContainerGap(80, Short.MAX_VALUE))
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -222,6 +232,17 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(17, 17, 17))))
+=======
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 72, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(jButton1)
+                        .addComponent(jButton2)
+                        .addComponent(jButton3))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(17, 17, 17))
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -230,15 +251,20 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(112, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(164, Short.MAX_VALUE)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(19, Short.MAX_VALUE))
         );
 
         pack();

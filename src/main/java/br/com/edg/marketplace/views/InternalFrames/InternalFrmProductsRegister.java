@@ -76,7 +76,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
         lblTitle.setText("REGISTRO DE PRODUTOS");
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
-        jLabel1.setText("PRODUTOS REGISTRADOS");
+        jLabel1.setText("PRODUTOS ADICIONADOS A LISTA");
 
         btnAddProd.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
         btnAddProd.setText("ADICIONAR ITEM A LISTA");
@@ -108,11 +108,11 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
 
             },
             new String [] {
-                "Name Product", "Quantity (Unity ou Kg)", "Price"
+                "Nome produto", "Quantidade(Uni/Kg)", "Valor"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.String.class, java.lang.Integer.class, java.lang.Double.class
+                java.lang.String.class, java.lang.Object.class, java.lang.Double.class
             };
 
             public Class getColumnClass(int columnIndex) {

@@ -4,9 +4,9 @@
  */
 package br.com.edg.marketplace.views.InternalFrames;
 
-import br.com.edg.marketplace.views.InternalFrames.InternalFrmEstoque;
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmInventory;
 import br.com.edg.marketplace.views.InternalFrames.InternalFrmProductsRegister;
-import br.com.edg.marketplace.views.InternalFrames.InternalFrmCaixa;
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmCashier;
 import javax.swing.SwingConstants;
 
 /**
@@ -36,7 +36,11 @@ public class FrmMainScreen extends javax.swing.JFrame {
         buttonGroup1 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         btnRegistroProducts = new javax.swing.JButton();
+<<<<<<< HEAD
         btnCadCliente = new javax.swing.JButton();
+=======
+        btnRegisterClient = new javax.swing.JButton();
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
         btnEstoque = new javax.swing.JButton();
         btnOthers = new javax.swing.JButton();
         btnRelatorio = new javax.swing.JButton();
@@ -82,6 +86,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             }
         });
 
+<<<<<<< HEAD
         btnCadCliente.setText("Cadastrar Cliente");
         btnCadCliente.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnCadCliente.setPreferredSize(new java.awt.Dimension(127, 59));
@@ -89,6 +94,15 @@ public class FrmMainScreen extends javax.swing.JFrame {
         btnCadCliente.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnCadClienteActionPerformed(evt);
+=======
+        btnRegisterClient.setText("Cadastrar Cliente");
+        btnRegisterClient.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        btnRegisterClient.setPreferredSize(new java.awt.Dimension(127, 59));
+        btnRegisterClient.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
+        btnRegisterClient.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRegisterClientActionPerformed(evt);
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
             }
         });
 
@@ -142,6 +156,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
+<<<<<<< HEAD
                 .addComponent(btnRegistroProducts)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnRelatorio, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -156,6 +171,27 @@ public class FrmMainScreen extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnOthers, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(40, 40, 40))
+=======
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnRegistroProducts)
+                        .addGap(4, 4, 4)
+                        .addComponent(jButton6, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnRegisterClient, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnEstoque)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btnCaixa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jButton5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(40, 40, 40))))
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -164,7 +200,11 @@ public class FrmMainScreen extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+<<<<<<< HEAD
                             .addComponent(btnCadCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+                            .addComponent(btnRegisterClient, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
                             .addComponent(btnRegistroProducts, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnEstoque, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(btnRelatorio, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -224,28 +264,36 @@ public class FrmMainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnOthersActionPerformed
 
+<<<<<<< HEAD
     private void btnCadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadClienteActionPerformed
         InternalFrmCadCliente novoCliente = new InternalFrmCadCliente();
         novoCliente.setVisible(true);
         this.jDskInitial.add(novoCliente);
     }//GEN-LAST:event_btnCadClienteActionPerformed
+=======
+    private void btnRegisterClientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterClientActionPerformed
+       InternalFrmRegisterClient registerClient = new InternalFrmRegisterClient();
+       registerClient.setVisible(true);
+       this.jDskInitial.add(registerClient);
+    }//GEN-LAST:event_btnRegisterClientActionPerformed
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
 
     private void btnRegistroProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroProductsActionPerformed
-       InternalFrmProductsRegister registroProduto = new InternalFrmProductsRegister();
-       registroProduto.setVisible(true);
-       this.jDskInitial.add(registroProduto);
+       InternalFrmProductsRegister registerProduct = new InternalFrmProductsRegister();
+       registerProduct.setVisible(true);
+       this.jDskInitial.add(registerProduct);
     }//GEN-LAST:event_btnRegistroProductsActionPerformed
 
     private void btnCaixaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCaixaActionPerformed
-        InternalFrmCaixa caixa = new InternalFrmCaixa();
-        caixa.setVisible(true);
-        this.jDskInitial.add(caixa);
+        InternalFrmCashier cashier = new InternalFrmCashier();
+        cashier.setVisible(true);
+        this.jDskInitial.add(cashier);
     }//GEN-LAST:event_btnCaixaActionPerformed
 
     private void btnEstoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEstoqueActionPerformed
-        InternalFrmEstoque estoque = new InternalFrmEstoque();
-        estoque.setVisible(true);
-        this.jDskInitial.add(estoque);
+        InternalFrmInventory inventory = new InternalFrmInventory();
+        inventory.setVisible(true);
+        this.jDskInitial.add(inventory);
     }//GEN-LAST:event_btnEstoqueActionPerformed
 
     /**
@@ -288,10 +336,20 @@ public class FrmMainScreen extends javax.swing.JFrame {
     private javax.swing.JButton btnCaixa;
     private javax.swing.JButton btnConfig;
     private javax.swing.JButton btnEstoque;
+<<<<<<< HEAD
     private javax.swing.JButton btnOthers;
+=======
+    private javax.swing.JButton btnRegisterClient;
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
     private javax.swing.JButton btnRegistroProducts;
     private javax.swing.JButton btnRelatorio;
     private javax.swing.ButtonGroup buttonGroup1;
+<<<<<<< HEAD
+=======
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77
     private javax.swing.JDesktopPane jDskInitial;
     private javax.swing.JFrame jFrame1;
     private javax.swing.JFrame jFrame2;
