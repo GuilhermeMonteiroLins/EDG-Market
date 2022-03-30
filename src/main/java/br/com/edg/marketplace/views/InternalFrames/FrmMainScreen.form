@@ -114,7 +114,7 @@
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jButton6" min="-2" pref="129" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnRegisterClient" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="btnEstoque" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -136,7 +136,7 @@
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="jButton2" max="32767" attributes="0"/>
+                              <Component id="btnRegisterClient" max="32767" attributes="0"/>
                               <Component id="btnRegistroProducts" max="32767" attributes="0"/>
                               <Component id="btnEstoque" alignment="0" max="32767" attributes="0"/>
                               <Component id="jButton6" alignment="1" max="32767" attributes="0"/>
@@ -165,7 +165,7 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegistroProductsActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton2">
+        <Component class="javax.swing.JButton" name="btnRegisterClient">
           <Properties>
             <Property name="text" type="java.lang.String" value="Cadastrar Cliente"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -175,7 +175,7 @@
             <Property name="verticalTextPosition" type="int" value="3"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegisterClientActionPerformed"/>
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnEstoque">
