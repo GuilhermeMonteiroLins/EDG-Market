@@ -163,7 +163,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
                                 .addGap(39, 39, 39)
                                 .addComponent(jCheckBox1))
                             .addComponent(lblQuantity, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 153, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 148, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnAddProd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnDeleteItem))
@@ -204,7 +204,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
                 .addGap(36, 36, 36)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 320, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 319, Short.MAX_VALUE)
                 .addGap(97, 97, 97)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(63, 63, 63))
@@ -228,7 +228,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
 		
 		JOptionPane.showInternalMessageDialog(
 				this, 
-				"Produto: "+ txtNameProd.getText() +" inserido com sucesso!"
+				"Produto: "+ txtNameProd.getText() + "." +"\ninserido com sucesso!"
 		);
 	}
 

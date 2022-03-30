@@ -60,7 +60,7 @@
                           </Group>
                           <Component id="lblQuantity" min="-2" pref="83" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace pref="153" max="32767" attributes="0"/>
+                      <EmptySpace pref="148" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Component id="btnAddProd" alignment="0" min="-2" max="-2" attributes="0"/>
                           <Component id="btnDeleteItem" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -113,7 +113,7 @@
               <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jScrollPane1" pref="320" max="32767" attributes="0"/>
+              <Component id="jScrollPane1" pref="319" max="32767" attributes="0"/>
               <EmptySpace min="-2" pref="97" max="-2" attributes="0"/>
               <Component id="jButton1" min="-2" pref="47" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
