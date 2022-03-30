@@ -4,6 +4,12 @@
  */
 package br.com.edg.marketplace.views.InternalFrames;
 
+<<<<<<< HEAD
+=======
+import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
+
+>>>>>>> parent of 906898d (Alteration)
 /**
  *
  * @author Elvis - PC
@@ -27,6 +33,7 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
     private void initComponents() {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
@@ -35,11 +42,32 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
+=======
+        jPanel1 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        tblListClient = new javax.swing.JTable();
+        btnEditarCli = new javax.swing.JButton();
+        btnRemoverCli = new javax.swing.JButton();
+        btnCadCli = new javax.swing.JButton();
+        lblNomeCli = new javax.swing.JLabel();
+        lblDataNascCli = new javax.swing.JLabel();
+        lblCPFCli = new javax.swing.JLabel();
+        lblTelefoneCli = new javax.swing.JLabel();
+        lblEmailCli = new javax.swing.JLabel();
+        lblEnderecoCli = new javax.swing.JLabel();
+        txtNomeCli = new javax.swing.JTextField();
+        txtDataNascCli = new javax.swing.JFormattedTextField();
+        txtCpfCli = new javax.swing.JFormattedTextField();
+        txtTelCli = new javax.swing.JFormattedTextField();
+        txtEmailCli = new javax.swing.JTextField();
+        txtEndCli = new javax.swing.JTextField();
+>>>>>>> parent of 906898d (Alteration)
 
         setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
+<<<<<<< HEAD
         setTitle("Cadastro de cliente");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -63,29 +91,214 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
 
         jLabel1.setFont(new java.awt.Font("Arial", 3, 48)); // NOI18N
         jLabel1.setText("Cadastro do cliente");
+=======
+        setTitle("Tela de Cadastro");
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Cadastro do cliente"));
+
+        tblListClient.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Nome", "Data de Nasc.", "CPF", "Telefone", "Email", "Endereço"
+            }
+        ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.Integer.class, java.lang.Integer.class, java.lang.Integer.class, java.lang.String.class, java.lang.String.class
+            };
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false
+            };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(tblListClient);
+
+        btnEditarCli.setText("editar");
+        btnEditarCli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnEditarCliActionPerformed(evt);
+            }
+        });
+
+        btnRemoverCli.setText("remover");
+        btnRemoverCli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnRemoverCliActionPerformed(evt);
+            }
+        });
+
+        btnCadCli.setText("cadastrar");
+        btnCadCli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnCadCliActionPerformed(evt);
+            }
+        });
+
+        lblNomeCli.setText("Nome:");
+
+        lblDataNascCli.setText("Data Nascimento:");
+
+        lblCPFCli.setText("CPF:");
+
+        lblTelefoneCli.setText("Telefone:");
+
+        lblEmailCli.setText("Email:");
+
+        lblEnderecoCli.setText("Endereço");
+
+        try {
+            txtDataNascCli.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("##/##/####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+        txtDataNascCli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtDataNascCliActionPerformed(evt);
+            }
+        });
+
+        try {
+            txtCpfCli.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("###.###.###-##")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        try {
+            txtTelCli.setFormatterFactory(new javax.swing.text.DefaultFormatterFactory(new javax.swing.text.MaskFormatter("(##) 9 ####-####")));
+        } catch (java.text.ParseException ex) {
+            ex.printStackTrace();
+        }
+
+        txtEndCli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtEndCliActionPerformed(evt);
+            }
+        });
+>>>>>>> parent of 906898d (Alteration)
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel1)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 599, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
+=======
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 616, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblCPFCli)
+                        .addGap(18, 18, 18)
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+                        .addComponent(txtCpfCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblDataNascCli)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtDataNascCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblTelefoneCli)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtTelCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblEmailCli)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtEmailCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(btnEditarCli)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(btnRemoverCli)
+                        .addGap(40, 40, 40)
+                        .addComponent(btnCadCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblEnderecoCli)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtEndCli))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(lblNomeCli)
+                        .addGap(18, 18, 18)
+                        .addComponent(txtNomeCli, javax.swing.GroupLayout.PREFERRED_SIZE, 252, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+=======
+>>>>>>> parent of 906898d (Alteration)
                         .addComponent(jButton1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(jButton3)))
+<<<<<<< HEAD
                 .addContainerGap(14, Short.MAX_VALUE))
+=======
+<<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+                .addContainerGap(14, Short.MAX_VALUE))
+========
+                .addContainerGap(80, Short.MAX_VALUE))
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+>>>>>>>> parent of 906898d (Alteration):src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+>>>>>>> parent of 906898d (Alteration)
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+<<<<<<< HEAD
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+=======
+<<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+========
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNomeCli)
+                            .addComponent(txtNomeCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblDataNascCli)
+                            .addComponent(txtDataNascCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblCPFCli)
+                            .addComponent(txtCpfCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblTelefoneCli)
+                            .addComponent(txtTelCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblEmailCli)
+                            .addComponent(txtEmailCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblEnderecoCli)
+                            .addComponent(txtEndCli, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btnEditarCli)
+                            .addComponent(btnRemoverCli)
+                            .addComponent(btnCadCli))
+                        .addGap(74, 74, 74))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(17, 17, 17))))
+=======
+>>>>>>>> parent of 906898d (Alteration):src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+>>>>>>> parent of 906898d (Alteration)
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
@@ -95,13 +308,20 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
                         .addComponent(jButton3))
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(17, 17, 17))
+<<<<<<< HEAD
         );
 
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+        );
+
+>>>>>>> parent of 906898d (Alteration)
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<< HEAD
             .addGap(0, 1073, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
@@ -114,11 +334,35 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+<<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(85, Short.MAX_VALUE)
+========
+<<<<<<< HEAD:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmCadCliente.java
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(164, Short.MAX_VALUE)
+=======
+            .addGroup(layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+>>>>>>> 906898da65494518e45b3155de142ad9a9894d77:src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+>>>>>>>> parent of 906898d (Alteration):src/main/java/br/com/edg/marketplace/views/InternalFrames/InternalFrmRegisterClient.java
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+>>>>>>> parent of 906898d (Alteration)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+<<<<<<< HEAD
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
 <<<<<<< HEAD
@@ -131,5 +375,62 @@ public class InternalFrmCadCliente extends javax.swing.JInternalFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable jTable1;
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+    private void txtDataNascCliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtDataNascCliActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtDataNascCliActionPerformed
+
+    private void txtEndCliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtEndCliActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtEndCliActionPerformed
+
+    private void btnEditarCliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEditarCliActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnEditarCliActionPerformed
+
+    private void btnCadCliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadCliActionPerformed
+        DefaultTableModel linha = (DefaultTableModel) tblListClient.getModel();
+        
+       linha.addRow(new Object[] {txtNomeCli.getText(),
+                                  txtDataNascCli.getText(),
+                                  txtCpfCli.getText(),
+                                  txtTelCli.getText(),
+                                  txtEmailCli.getText(),
+                                  txtEndCli.getText()});
+       
+       JOptionPane.showMessageDialog(this, "Cliente " + txtNomeCli.getText() + " cadastrado com sucesso");
+    }//GEN-LAST:event_btnCadCliActionPerformed
+
+    private void btnRemoverCliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRemoverCliActionPerformed
+        int indexLine = tblListClient.getSelectedRow();
+        DefaultTableModel linha = (DefaultTableModel) tblListClient.getModel();
+        if(indexLine >= 0) {
+            linha.removeRow(indexLine);
+        } else {
+            JOptionPane.showMessageDialog(this, "Selecione uma linha.");
+        }
+    }//GEN-LAST:event_btnRemoverCliActionPerformed
+
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCadCli;
+    private javax.swing.JButton btnEditarCli;
+    private javax.swing.JButton btnRemoverCli;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JLabel lblCPFCli;
+    private javax.swing.JLabel lblDataNascCli;
+    private javax.swing.JLabel lblEmailCli;
+    private javax.swing.JLabel lblEnderecoCli;
+    private javax.swing.JLabel lblNomeCli;
+    private javax.swing.JLabel lblTelefoneCli;
+    private javax.swing.JTable tblListClient;
+    private javax.swing.JFormattedTextField txtCpfCli;
+    private javax.swing.JFormattedTextField txtDataNascCli;
+    private javax.swing.JTextField txtEmailCli;
+    private javax.swing.JTextField txtEndCli;
+    private javax.swing.JTextField txtNomeCli;
+    private javax.swing.JFormattedTextField txtTelCli;
+>>>>>>> parent of 906898d (Alteration)
     // End of variables declaration//GEN-END:variables
 }

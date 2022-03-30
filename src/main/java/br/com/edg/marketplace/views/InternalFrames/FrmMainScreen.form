@@ -134,10 +134,14 @@
                           <Component id="jButton6" min="-2" pref="129" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
 <<<<<<< HEAD
+<<<<<<< HEAD
                           <Component id="btnRegisterClient" min="-2" max="-2" attributes="0"/>
 =======
                           <Component id="jButton2" min="-2" max="-2" attributes="0"/>
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+>>>>>>> parent of 906898d (Alteration)
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="btnEstoque" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
@@ -165,6 +169,7 @@
                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                               <Component id="btnCadCliente" max="32767" attributes="0"/>
 =======
                               <Component id="btnRegisterClient" max="32767" attributes="0"/>
@@ -172,6 +177,9 @@
 =======
                               <Component id="jButton2" max="32767" attributes="0"/>
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+                              <Component id="jButton2" max="32767" attributes="0"/>
+>>>>>>> parent of 906898d (Alteration)
                               <Component id="btnRegistroProducts" max="32767" attributes="0"/>
                               <Component id="btnEstoque" alignment="0" max="32767" attributes="0"/>
                               <Component id="jButton6" alignment="1" max="32767" attributes="0"/>
@@ -202,6 +210,7 @@
         </Component>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <Component class="javax.swing.JButton" name="btnCadCliente">
 =======
         <Component class="javax.swing.JButton" name="btnRegisterClient">
@@ -209,6 +218,9 @@
 =======
         <Component class="javax.swing.JButton" name="jButton2">
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+        <Component class="javax.swing.JButton" name="jButton2">
+>>>>>>> parent of 906898d (Alteration)
           <Properties>
             <Property name="text" type="java.lang.String" value="Cadastrar Cliente"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -220,6 +232,7 @@
           <Events>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCadClienteActionPerformed"/>
 =======
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegisterClientActionPerformed"/>
@@ -227,6 +240,9 @@
 =======
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
 >>>>>>> parent of daa7490 (edit internalFrmCadCliente)
+=======
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+>>>>>>> parent of 906898d (Alteration)
           </Events>
         </Component>
         <Component class="javax.swing.JButton" name="btnEstoque">

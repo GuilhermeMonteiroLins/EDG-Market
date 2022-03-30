@@ -8,12 +8,12 @@ package br.com.edg.marketplace.views.InternalFrames;
  *
  * @author Dell
  */
-public class InternalFrmInventory extends javax.swing.JInternalFrame {
+public class InternalFrmEstoque extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form InternalFrmEstoque
      */
-    public InternalFrmInventory() {
+    public InternalFrmEstoque() {
         initComponents();
     }
 
@@ -36,7 +36,6 @@ public class InternalFrmInventory extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
-        setTitle("Estoque");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
