@@ -7,6 +7,7 @@ package br.com.edg.marketplace.views.InternalFrames;
 import br.com.edg.marketplace.views.InternalFrames.InternalFrmInventory;
 import br.com.edg.marketplace.views.InternalFrames.InternalFrmProductsRegister;
 import br.com.edg.marketplace.views.InternalFrames.InternalFrmCashier;
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmCadCliente;
 import javax.swing.SwingConstants;
 
 /**
@@ -264,19 +265,19 @@ public class FrmMainScreen extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnOthersActionPerformed
 
-<<<<<<< HEAD
+
     private void btnCadClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCadClienteActionPerformed
         InternalFrmCadCliente novoCliente = new InternalFrmCadCliente();
         novoCliente.setVisible(true);
         this.jDskInitial.add(novoCliente);
     }//GEN-LAST:event_btnCadClienteActionPerformed
-=======
+
     private void btnRegisterClientActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterClientActionPerformed
        InternalFrmRegisterClient registerClient = new InternalFrmRegisterClient();
        registerClient.setVisible(true);
        this.jDskInitial.add(registerClient);
     }//GEN-LAST:event_btnRegisterClientActionPerformed
->>>>>>> 906898da65494518e45b3155de142ad9a9894d77
+
 
     private void btnRegistroProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistroProductsActionPerformed
        InternalFrmProductsRegister registerProduct = new InternalFrmProductsRegister();
