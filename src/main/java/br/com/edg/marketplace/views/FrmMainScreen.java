@@ -4,6 +4,9 @@
  */
 package br.com.edg.marketplace.views;
 
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmEstoque;
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmProductsRegister;
+import br.com.edg.marketplace.views.InternalFrames.InternalFrmCaixa;
 import javax.swing.SwingConstants;
 
 /**
