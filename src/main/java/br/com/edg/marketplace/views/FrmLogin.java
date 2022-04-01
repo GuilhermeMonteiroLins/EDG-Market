@@ -190,8 +190,9 @@ public class FrmLogin extends javax.swing.JFrame {
         String usuario = txtUsuario.getText();
         String senha = String.valueOf(txtSenha.getText());
         
-        
-        if(usuario.equals("")) {
+        if(usuario.equals("") && senha.equals("")) {
+            JOptionPane.showMessageDialog(this, "Nenhum dos campos preenchidos.");
+        }else if(usuario.equals("")) {
             JOptionPane.showMessageDialog(this, "Campo \"usuário\" não preenchido.");
         } else if (senha.equals("")){
             JOptionPane.showMessageDialog(this, "Campo \"senha\" não preenchido.");
@@ -200,7 +201,8 @@ public class FrmLogin extends javax.swing.JFrame {
         }else {
             JOptionPane.showMessageDialog(this, "Bem-vindo " + usuario + "!!!");
             FrmMainScreen telaPrincipal = new FrmMainScreen();
-            telaPrincipal.setVisible(true);  
+            telaPrincipal.setVisible(true); 
+            dispose();
         }
 
     }//GEN-LAST:event_btnAcessarActionPerformed

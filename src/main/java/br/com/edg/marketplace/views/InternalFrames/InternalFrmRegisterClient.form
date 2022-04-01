@@ -115,8 +115,8 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="lblNomeCliente" pref="77" max="32767" attributes="0"/>
-                              <Component id="lblEmailCliente" alignment="0" pref="77" max="32767" attributes="0"/>
+                              <Component id="lblNomeCliente" max="32767" attributes="0"/>
+                              <Component id="lblEmailCliente" alignment="0" max="32767" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -186,7 +186,7 @@
                       </Group>
                       <Group type="102" attributes="0">
                           <Component id="btnCadCliente" min="-2" pref="30" max="-2" attributes="0"/>
-                          <EmptySpace pref="19" max="32767" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="btnEditarCliente" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                               <Component id="txtEmailCliente" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
@@ -214,6 +214,9 @@
           </Properties>
         </Component>
         <Component class="javax.swing.JTextField" name="txtNomeCliente">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNomeClienteActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="lblDataNascCliente">
           <Properties>
