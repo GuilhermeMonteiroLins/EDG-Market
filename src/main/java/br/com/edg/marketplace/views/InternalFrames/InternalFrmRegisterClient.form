@@ -96,7 +96,10 @@
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Arial" size="48" style="2"/>
+          <Font name="Arial" size="36" style="0"/>
+        </Property>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/UserLogin.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Cadastro do cliente"/>
       </Properties>
@@ -122,7 +125,7 @@
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="txtNomeCliente" pref="343" max="32767" attributes="0"/>
+                      <Component id="txtNomeCliente" pref="282" max="32767" attributes="0"/>
                       <Component id="txtEmailCliente" pref="343" max="32767" attributes="0"/>
                       <Component id="txtEndCliente" pref="343" max="32767" attributes="0"/>
                   </Group>
@@ -137,7 +140,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="lblDataNascCliente" min="-2" pref="147" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                              <Component id="txtDataNascCliente" pref="95" max="32767" attributes="0"/>
+                              <Component id="txtDataNascCliente" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Component id="lblCpfCliente" min="-2" pref="45" max="-2" attributes="0"/>

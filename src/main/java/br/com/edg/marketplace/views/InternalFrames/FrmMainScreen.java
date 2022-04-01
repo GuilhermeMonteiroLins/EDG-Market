@@ -74,8 +74,9 @@ public class FrmMainScreen extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Tela Principal");
 
-        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
+        jPanel1.setBackground(new java.awt.Color(0, 51, 255));
 
+        btnRegistroProducts.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Registro32.png"))); // NOI18N
         btnRegistroProducts.setText("Cadastrar Produtos");
         btnRegistroProducts.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnRegistroProducts.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -85,6 +86,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             }
         });
 
+        btnRegisterClient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserLogin32.png"))); // NOI18N
         btnRegisterClient.setText("Cadastrar Cliente");
         btnRegisterClient.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnRegisterClient.setPreferredSize(new java.awt.Dimension(127, 59));
@@ -95,6 +97,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             }
         });
 
+        btnEstoque.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Inventory32.png"))); // NOI18N
         btnEstoque.setText("Estoque");
         btnEstoque.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnEstoque.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
@@ -104,6 +107,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             }
         });
 
+        jButton5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Others32.png"))); // NOI18N
         jButton5.setText("Outros");
         jButton5.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton5.setPreferredSize(new java.awt.Dimension(71, 59));
@@ -114,11 +118,13 @@ public class FrmMainScreen extends javax.swing.JFrame {
             }
         });
 
+        jButton6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/RegistroSell32.png"))); // NOI18N
         jButton6.setText("Relatorio de vendas");
         jButton6.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton6.setPreferredSize(new java.awt.Dimension(127, 59));
         jButton6.setVerticalTextPosition(javax.swing.SwingConstants.BOTTOM);
 
+        jButton7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Enginner.png"))); // NOI18N
         jButton7.setText("Config");
         jButton7.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         jButton7.setPreferredSize(new java.awt.Dimension(71, 59));
@@ -131,6 +137,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
 
+        btnCaixa.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Carrinh32.png"))); // NOI18N
         btnCaixa.setText("Caixa");
         btnCaixa.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
         btnCaixa.setPreferredSize(new java.awt.Dimension(71, 59));
@@ -191,11 +198,11 @@ public class FrmMainScreen extends javax.swing.JFrame {
         jDskInitial.setLayout(jDskInitialLayout);
         jDskInitialLayout.setHorizontalGroup(
             jDskInitialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1154, Short.MAX_VALUE)
+            .addGap(0, 1258, Short.MAX_VALUE)
         );
         jDskInitialLayout.setVerticalGroup(
             jDskInitialLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 552, Short.MAX_VALUE)
+            .addGap(0, 627, Short.MAX_VALUE)
         );
 
         jMenu1.setText("File");
@@ -218,8 +225,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jDskInitial)
-                .addContainerGap())
+                .addComponent(jDskInitial))
         );
 
         pack();

@@ -84,7 +84,8 @@ public class InternalFrmRegisterClient extends javax.swing.JInternalFrame {
         tblListaCliente.setShowGrid(false);
         jScrollPane1.setViewportView(tblListaCliente);
 
-        jLabel1.setFont(new java.awt.Font("Arial", 2, 48)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserLogin.png"))); // NOI18N
         jLabel1.setText("Cadastro do cliente");
 
         lblNomeCliente.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
@@ -193,7 +194,7 @@ public class InternalFrmRegisterClient extends javax.swing.JInternalFrame {
                             .addComponent(lblEmailCliente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(txtNomeCliente, javax.swing.GroupLayout.DEFAULT_SIZE, 343, Short.MAX_VALUE)
+                    .addComponent(txtNomeCliente, javax.swing.GroupLayout.DEFAULT_SIZE, 282, Short.MAX_VALUE)
                     .addComponent(txtEmailCliente, javax.swing.GroupLayout.DEFAULT_SIZE, 343, Short.MAX_VALUE)
                     .addComponent(txtEndCliente, javax.swing.GroupLayout.DEFAULT_SIZE, 343, Short.MAX_VALUE))
                 .addGap(39, 39, 39)
@@ -206,7 +207,7 @@ public class InternalFrmRegisterClient extends javax.swing.JInternalFrame {
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                             .addComponent(lblDataNascCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                            .addComponent(txtDataNascCliente, javax.swing.GroupLayout.DEFAULT_SIZE, 95, Short.MAX_VALUE))
+                            .addComponent(txtDataNascCliente))
                         .addGroup(jPanel1Layout.createSequentialGroup()
                             .addComponent(lblCpfCliente, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGap(18, 18, 18)

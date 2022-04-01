@@ -73,12 +73,14 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
         jButton1.setText("REGISTRAR");
 
         lblTitle.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Registro.png"))); // NOI18N
         lblTitle.setText("REGISTRO DE PRODUTOS");
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         jLabel1.setText("PRODUTOS ADICIONADOS A LISTA");
 
         btnAddProd.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnAddProd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/plus.png"))); // NOI18N
         btnAddProd.setText("ADICIONAR ITEM A LISTA");
         btnAddProd.setActionCommand("    ADD ITEM TO LIST");
         btnAddProd.setMaximumSize(new java.awt.Dimension(150, 420));
@@ -93,6 +95,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
         jLabel2.setText("Nome do Produto");
 
         btnDeleteItem.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
+        btnDeleteItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
         btnDeleteItem.setText("DELETAR ITEM DA LISTA");
         btnDeleteItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -136,9 +139,9 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(39, 39, 39)
-                .addComponent(jLabel3)
-                .addGap(18, 18, 18)
                 .addComponent(lblTitle)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
@@ -163,7 +166,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
                                 .addGap(39, 39, 39)
                                 .addComponent(jCheckBox1))
                             .addComponent(lblQuantity, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 148, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 112, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(btnAddProd, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(btnDeleteItem))
@@ -204,7 +207,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
                 .addGap(36, 36, 36)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 319, Short.MAX_VALUE)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 323, Short.MAX_VALUE)
                 .addGap(97, 97, 97)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 47, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(63, 63, 63))

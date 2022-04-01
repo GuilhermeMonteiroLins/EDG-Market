@@ -18,7 +18,7 @@ public class FrmLogin extends javax.swing.JFrame {
      * Creates new form FrmLogin
      */
     public FrmLogin() {
-        this.setLocationRelativeTo(null);
+        this.setLocationRelativeTo(null); 
         initComponents();
     }
 
@@ -31,58 +31,52 @@ public class FrmLogin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
         lblNomeLoja = new javax.swing.JLabel();
         lblLogoUser = new javax.swing.JLabel();
-        pnlAcesso = new javax.swing.JPanel();
-        lblPassword = new javax.swing.JLabel();
-        txtUsuario = new javax.swing.JTextField();
         btnAcessar = new javax.swing.JButton();
         txtSenha = new javax.swing.JPasswordField();
-        btnSair = new javax.swing.JButton();
+        txtUsuario = new javax.swing.JTextField();
         lblUsername = new javax.swing.JLabel();
+        lblPassword = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fundoLogin.jpg"))); // NOI18N
+        jLabel1.setText("jLabel1");
+
+        jLabel2.setText("jLabel2");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Tela de Acesso");
         setBackground(new java.awt.Color(153, 153, 153));
+        setBounds(new java.awt.Rectangle(0, 0, 0, 0));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         setModalExclusionType(java.awt.Dialog.ModalExclusionType.TOOLKIT_EXCLUDE);
-        setUndecorated(true);
+        setResizable(false);
+        getContentPane().setLayout(null);
 
         lblNomeLoja.setFont(new java.awt.Font("Nirmala UI Semilight", 1, 36)); // NOI18N
+        lblNomeLoja.setForeground(new java.awt.Color(255, 255, 255));
         lblNomeLoja.setText("EDG | Market");
+        getContentPane().add(lblNomeLoja);
+        lblNomeLoja.setBounds(90, 80, 214, 57);
 
         lblLogoUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgUsuarioAcesso.png"))); // NOI18N
-
-        pnlAcesso.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Acesso", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 12), new java.awt.Color(102, 102, 102))); // NOI18N
-        pnlAcesso.setToolTipText("");
-
-        lblPassword.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
-        lblPassword.setText("Senha:");
-
-        txtUsuario.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        txtUsuario.addFocusListener(new java.awt.event.FocusAdapter() {
-            public void focusGained(java.awt.event.FocusEvent evt) {
-                txtUsuarioFocusGained(evt);
-            }
-            public void focusLost(java.awt.event.FocusEvent evt) {
-                txtUsuarioFocusLost(evt);
-            }
-        });
-        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtUsuarioActionPerformed(evt);
-            }
-        });
+        getContentPane().add(lblLogoUser);
+        lblLogoUser.setBounds(160, 10, 72, 72);
 
         btnAcessar.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         btnAcessar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgBtnAcessar.png"))); // NOI18N
         btnAcessar.setText("Acessar");
-        btnAcessar.setToolTipText("");
+        btnAcessar.setToolTipText("Entrar na tela principal");
         btnAcessar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAcessarActionPerformed(evt);
             }
         });
+        getContentPane().add(btnAcessar);
+        btnAcessar.setBounds(130, 290, 133, 41);
 
         txtSenha.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtSenha.addFocusListener(new java.awt.event.FocusAdapter() {
@@ -98,118 +92,49 @@ public class FrmLogin extends javax.swing.JFrame {
                 txtSenhaActionPerformed(evt);
             }
         });
+        getContentPane().add(txtSenha);
+        txtSenha.setBounds(40, 240, 300, 18);
 
-        btnSair.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        btnSair.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgBtnSair.png"))); // NOI18N
-        btnSair.setText("Sair");
-        btnSair.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnSairActionPerformed(evt);
+        txtUsuario.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        txtUsuario.addFocusListener(new java.awt.event.FocusAdapter() {
+            public void focusGained(java.awt.event.FocusEvent evt) {
+                txtUsuarioFocusGained(evt);
+            }
+            public void focusLost(java.awt.event.FocusEvent evt) {
+                txtUsuarioFocusLost(evt);
             }
         });
+        txtUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtUsuarioActionPerformed(evt);
+            }
+        });
+        getContentPane().add(txtUsuario);
+        txtUsuario.setBounds(40, 170, 300, 18);
 
-        lblUsername.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
+        lblUsername.setFont(new java.awt.Font("Bahnschrift", 0, 20)); // NOI18N
+        lblUsername.setForeground(new java.awt.Color(255, 255, 255));
         lblUsername.setText("Usuário:");
+        getContentPane().add(lblUsername);
+        lblUsername.setBounds(40, 150, 90, 25);
 
-        javax.swing.GroupLayout pnlAcessoLayout = new javax.swing.GroupLayout(pnlAcesso);
-        pnlAcesso.setLayout(pnlAcessoLayout);
-        pnlAcessoLayout.setHorizontalGroup(
-            pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlAcessoLayout.createSequentialGroup()
-                .addGap(17, 17, 17)
-                .addGroup(pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(lblPassword)
-                    .addComponent(lblUsername))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(pnlAcessoLayout.createSequentialGroup()
-                        .addComponent(btnAcessar)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnSair, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(43, Short.MAX_VALUE))
-        );
-        pnlAcessoLayout.setVerticalGroup(
-            pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(pnlAcessoLayout.createSequentialGroup()
-                .addGap(15, 15, 15)
-                .addGroup(pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtUsuario, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblUsername))
-                .addGap(18, 18, 18)
-                .addGroup(pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtSenha, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(lblPassword))
-                .addGap(18, 18, 18)
-                .addGroup(pnlAcessoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnAcessar)
-                    .addComponent(btnSair))
-                .addContainerGap(29, Short.MAX_VALUE))
-        );
+        lblPassword.setFont(new java.awt.Font("Bahnschrift", 0, 20)); // NOI18N
+        lblPassword.setForeground(new java.awt.Color(255, 255, 255));
+        lblPassword.setText("Senha:");
+        getContentPane().add(lblPassword);
+        lblPassword.setBounds(40, 220, 70, 25);
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(48, 48, 48)
-                        .addComponent(pnlAcesso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(127, 127, 127)
-                        .addComponent(lblNomeLoja)))
-                .addContainerGap(50, Short.MAX_VALUE))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(lblLogoUser)
-                .addGap(196, 196, 196))
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(23, 23, 23)
-                .addComponent(lblLogoUser)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(lblNomeLoja, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(pnlAcesso, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(38, Short.MAX_VALUE))
-        );
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/fundoLogin.jpg"))); // NOI18N
+        getContentPane().add(jLabel4);
+        jLabel4.setBounds(-10, -10, 470, 400);
 
-        pack();
+        setSize(new java.awt.Dimension(395, 404));
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtUsuarioActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtUsuarioActionPerformed
-
-    private void btnAcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcessarActionPerformed
-        String usuario = txtUsuario.getText();
-        String senha = String.valueOf(txtSenha.getText());
-        
-        if(usuario.equals("") && senha.equals("")) {
-            JOptionPane.showMessageDialog(this, "Nenhum dos campos preenchidos.");
-        }else if(usuario.equals("")) {
-            JOptionPane.showMessageDialog(this, "Campo \"usuário\" não preenchido.");
-        } else if (senha.equals("")){
-            JOptionPane.showMessageDialog(this, "Campo \"senha\" não preenchido.");
-        }else if(!usuario.equals("admin") || !senha.equals("admin")) {
-            JOptionPane.showMessageDialog(this, "Usuário ou senha incorretos, tente novamente.");
-        }else {
-            JOptionPane.showMessageDialog(this, "Bem-vindo " + usuario + "!!!");
-            FrmMainScreen telaPrincipal = new FrmMainScreen();
-            telaPrincipal.setVisible(true); 
-            dispose();
-        }
-
-    }//GEN-LAST:event_btnAcessarActionPerformed
-
-    private void btnSairActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSairActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_btnSairActionPerformed
 
     private void txtUsuarioFocusGained(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtUsuarioFocusGained
         txtUsuario.setBackground(Color.lightGray);
@@ -230,6 +155,26 @@ public class FrmLogin extends javax.swing.JFrame {
     private void txtSenhaFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtSenhaFocusLost
         txtSenha.setBackground(Color.white);
     }//GEN-LAST:event_txtSenhaFocusLost
+
+    private void btnAcessarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAcessarActionPerformed
+        String usuario = txtUsuario.getText();
+        String senha = String.valueOf(txtSenha.getText());
+
+        if(usuario.equals("") && senha.equals("")) {
+            JOptionPane.showMessageDialog(this, "Nenhum dos campos preenchidos.");
+        }else if(usuario.equals("")) {
+            JOptionPane.showMessageDialog(this, "Campo \"usuário\" não preenchido.");
+        } else if (senha.equals("")){
+            JOptionPane.showMessageDialog(this, "Campo \"senha\" não preenchido.");
+        }else if(!usuario.equals("admin") || !senha.equals("admin")) {
+            JOptionPane.showMessageDialog(this, "Usuário ou senha incorretos, tente novamente.");
+        }else {
+            JOptionPane.showMessageDialog(this, "Bem-vindo " + usuario + "!!!");
+            FrmMainScreen telaPrincipal = new FrmMainScreen();
+            telaPrincipal.setVisible(true);
+            dispose();
+        }
+    }//GEN-LAST:event_btnAcessarActionPerformed
 
     /**
      * @param args the command line arguments
@@ -268,12 +213,13 @@ public class FrmLogin extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAcessar;
-    private javax.swing.JButton btnSair;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel lblLogoUser;
     private javax.swing.JLabel lblNomeLoja;
     private javax.swing.JLabel lblPassword;
     private javax.swing.JLabel lblUsername;
-    private javax.swing.JPanel pnlAcesso;
     private javax.swing.JPasswordField txtSenha;
     private javax.swing.JTextField txtUsuario;
     // End of variables declaration//GEN-END:variables
