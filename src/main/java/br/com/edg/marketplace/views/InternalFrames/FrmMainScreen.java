@@ -19,6 +19,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
      * Creates new form FrmMainScreen
      */
     public FrmMainScreen() {
+        this.setLocationRelativeTo(null);
         initComponents();
     }
 
@@ -71,6 +72,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Tela Principal");
 
         jPanel1.setBackground(new java.awt.Color(51, 153, 255));
 
@@ -221,6 +223,7 @@ public class FrmMainScreen extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
