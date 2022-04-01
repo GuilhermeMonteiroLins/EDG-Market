@@ -78,6 +78,7 @@ public class FrmLogin extends javax.swing.JFrame {
         getContentPane().add(btnAcessar);
         btnAcessar.setBounds(130, 290, 133, 41);
 
+        txtSenha.setFont(new java.awt.Font("Bahnschrift", 0, 16)); // NOI18N
         txtSenha.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtSenha.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
@@ -93,8 +94,9 @@ public class FrmLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtSenha);
-        txtSenha.setBounds(40, 240, 300, 18);
+        txtSenha.setBounds(40, 240, 300, 30);
 
+        txtUsuario.setFont(new java.awt.Font("Bahnschrift", 0, 16)); // NOI18N
         txtUsuario.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         txtUsuario.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
@@ -110,7 +112,7 @@ public class FrmLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(txtUsuario);
-        txtUsuario.setBounds(40, 170, 300, 18);
+        txtUsuario.setBounds(40, 170, 300, 30);
 
         lblUsername.setFont(new java.awt.Font("Bahnschrift", 0, 20)); // NOI18N
         lblUsername.setForeground(new java.awt.Color(255, 255, 255));
