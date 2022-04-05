@@ -93,7 +93,7 @@ public class InternalFrmCashier extends javax.swing.JInternalFrame {
         jFormattedTextField1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
 
         btnDeleteProduct.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        btnDeleteProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
+        btnDeleteProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/delete.png"))); // NOI18N
         btnDeleteProduct.setText("REMOVER PRODUTO ");
         btnDeleteProduct.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -102,7 +102,7 @@ public class InternalFrmCashier extends javax.swing.JInternalFrame {
         });
 
         btnAddProduct.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
-        btnAddProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/plus.png"))); // NOI18N
+        btnAddProduct.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/plus.png"))); // NOI18N
         btnAddProduct.setText("ADICIONAR PRODUTO");
 
         jPanel4.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Forma de Pagamento", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 10))); // NOI18N
@@ -145,7 +145,7 @@ public class InternalFrmCashier extends javax.swing.JInternalFrame {
         );
 
         btnFinishBuy.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        btnFinishBuy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/List32.png"))); // NOI18N
+        btnFinishBuy.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/List32.png"))); // NOI18N
         btnFinishBuy.setText("Finalizar Compra");
         btnFinishBuy.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

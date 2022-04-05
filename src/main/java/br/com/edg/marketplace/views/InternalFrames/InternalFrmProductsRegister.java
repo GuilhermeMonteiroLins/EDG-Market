@@ -73,14 +73,14 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
         jButton1.setText("REGISTRAR");
 
         lblTitle.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
-        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Registro.png"))); // NOI18N
+        lblTitle.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Registro.png"))); // NOI18N
         lblTitle.setText("REGISTRO DE PRODUTOS");
 
         jLabel1.setFont(new java.awt.Font("Arial Black", 0, 18)); // NOI18N
         jLabel1.setText("PRODUTOS ADICIONADOS A LISTA");
 
         btnAddProd.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        btnAddProd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/plus.png"))); // NOI18N
+        btnAddProd.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/plus.png"))); // NOI18N
         btnAddProd.setText("ADICIONAR ITEM A LISTA");
         btnAddProd.setActionCommand("    ADD ITEM TO LIST");
         btnAddProd.setMaximumSize(new java.awt.Dimension(150, 420));
@@ -95,7 +95,7 @@ public class InternalFrmProductsRegister extends javax.swing.JInternalFrame {
         jLabel2.setText("Nome do Produto");
 
         btnDeleteItem.setFont(new java.awt.Font("Arial", 0, 12)); // NOI18N
-        btnDeleteItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/delete.png"))); // NOI18N
+        btnDeleteItem.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/delete.png"))); // NOI18N
         btnDeleteItem.setText("DELETAR ITEM DA LISTA");
         btnDeleteItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

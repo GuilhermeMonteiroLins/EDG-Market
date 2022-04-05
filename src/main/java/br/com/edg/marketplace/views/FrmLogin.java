@@ -62,9 +62,9 @@ public class FrmLogin extends javax.swing.JFrame {
         getContentPane().add(lblNomeLoja);
         lblNomeLoja.setBounds(90, 80, 214, 57);
 
-        lblLogoUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgUsuarioAcesso.png"))); // NOI18N
+        lblLogoUser.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/UserLogin.png"))); // NOI18N
         getContentPane().add(lblLogoUser);
-        lblLogoUser.setBounds(160, 10, 72, 72);
+        lblLogoUser.setBounds(160, 10, 60, 70);
 
         btnAcessar.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         btnAcessar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgBtnAcessar.png"))); // NOI18N

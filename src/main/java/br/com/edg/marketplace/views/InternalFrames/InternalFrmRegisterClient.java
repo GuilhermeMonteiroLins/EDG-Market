@@ -85,7 +85,7 @@ public class InternalFrmRegisterClient extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(tblListaCliente);
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UserLogin.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/UserLogin.png"))); // NOI18N
         jLabel1.setText("Cadastro do cliente");
 
         lblNomeCliente.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N

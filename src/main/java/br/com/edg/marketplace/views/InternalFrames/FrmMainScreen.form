@@ -73,15 +73,19 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" max="32767" attributes="0"/>
           <Component id="jDskInitial" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
               <Component id="jDskInitial" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -154,7 +158,7 @@
         <Component class="javax.swing.JButton" name="btnRegistroProducts">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Registro32.png"/>
+              <Image iconType="3" name="/img/Registro32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cadastrar Produtos"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -167,7 +171,7 @@
         <Component class="javax.swing.JButton" name="btnRegisterClient">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/UserLogin32.png"/>
+              <Image iconType="3" name="/img/UserLogin32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Cadastrar Cliente"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -183,7 +187,7 @@
         <Component class="javax.swing.JButton" name="btnEstoque">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Inventory32.png"/>
+              <Image iconType="3" name="/img/Inventory32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Estoque"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -196,7 +200,7 @@
         <Component class="javax.swing.JButton" name="jButton5">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Others32.png"/>
+              <Image iconType="3" name="/img/Others32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Outros"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -212,7 +216,7 @@
         <Component class="javax.swing.JButton" name="jButton6">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/RegistroSell32.png"/>
+              <Image iconType="3" name="/img/RegistroSell32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Relatorio de vendas"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -225,7 +229,7 @@
         <Component class="javax.swing.JButton" name="jButton7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Enginner.png"/>
+              <Image iconType="3" name="/img/Enginner.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Config"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -246,7 +250,7 @@
         <Component class="javax.swing.JButton" name="btnCaixa">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Carrinh32.png"/>
+              <Image iconType="3" name="/img/Carrinh32.png"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Caixa"/>
             <Property name="horizontalTextPosition" type="int" value="0"/>
@@ -271,7 +275,7 @@
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
-              <EmptySpace min="0" pref="627" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="616" max="32767" attributes="0"/>
           </Group>
         </DimensionLayout>
       </Layout>
